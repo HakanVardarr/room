@@ -1,3 +1,2 @@
-# zoom_screen
-Rust screen zoomer
-
+# Room
+Rust screen zoomer using sdl and screenshot crate
