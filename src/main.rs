@@ -1,6 +1,6 @@
 extern crate sdl2;
 
-use screen_shot::{run_mac, run_win};
+use room::{run_mac, run_win};
 
 fn main() -> Result<(), String> {
     let width = 0;
