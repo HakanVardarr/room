@@ -206,7 +206,7 @@ pub fn run_mac(
                     repeat: _,
                 } => {
                     if clicked {
-                        if wx > 0 && wx < width as i32 - 300 && wy > 0 && wy < height as i32 - 300 {
+                        if wx > 0 && wx < width as i32 && wy > 0 && wy < height as i32 {
                             if let Some(key) = keycode {
                                 match key {
                                     Keycode::Left => {
